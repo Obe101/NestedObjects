@@ -17,5 +17,7 @@ namespace NestedObjects
         /// The sstudent's legal last name
         /// </summary>
         public string LastName { get; set; }
+
+        public List<Course> Schedule { get; set; }
     }
 }
